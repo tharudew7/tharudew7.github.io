@@ -251,7 +251,7 @@ position: relative;
 /*--------Promo----------*/
 #promo
 {
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(2,0,0,0.7)),url(bg1.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(2,0,0,0.7)),url(img/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	color: #fff;
