@@ -12,8 +12,9 @@
 }
 .navbar-brand img
 {
-	height: 40px;
-	padding-left: 30px;
+	height: 90px;
+	width: 200;
+	padding-left: 40px;
 }
 .navbar-nav li
 {
@@ -54,16 +55,19 @@
 	transform:translateY(-50%);
 	bottom: initial!important;
 }
-.carousel-caption h5
+.carousel-caption h2
 {
-	color: #2E4053 ;
-	font-size: 50px;
+	
+	color: #fcdad9 ;
+	font-size: 100px;
 }
-.carousel-caption h5
+.carousel-caption p
 {
-	color: #2E4053 ;
-	font-size: 50px;
+	font-size: 30px;
+	margin-top: 20px;
+	color: #ccc;
 }
+
 /*------About-------*/
 #about
 {
@@ -217,13 +221,9 @@ position: relative;
 }
 #team.fa
 {
-	height: 25px;
-	width: 25px;
-	color: #007bff !important;
-	background: #fff;
-	padding: 4px;
-	border-radius: 50%;
-
+	margin: 10px;
+	color: blue;
+	font-weight: bold;
 }
 .img-box ul
 {
@@ -235,20 +235,20 @@ position: relative;
 	transform: translateX(-50%);
 	opacity: 0;
 }
-.img-box ul li
+/*.img-box ul li
 {
 	padding: 5px;
 	display: inline-block;
-}
+}*/
 .img-box:hover ul
 {
 	opacity: 1;
 }
-.img-box ul, .img-box ul li
+/*.img-box ul, .img-box ul li
 {
 	transition: 0.5s;
 }
-/*--------Promo----------*/
+/*/*--------Promo----------*/
 #promo
 {
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(2,0,0,0.7)),url(img/bg1.jpg);
