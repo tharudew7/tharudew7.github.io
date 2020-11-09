@@ -38,7 +38,7 @@
         <a class="nav-link" href="#price" href="#">PRICE PLANS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#signup" href="#">SIGN UP</a>
+        <a class="nav-link" href="localhost/final/login.php" href="#">SIGN UP</a>
       </li>
     </ul>
   </div>
@@ -97,7 +97,8 @@
 <div class="col-md-6">
 <h2>About</h2>
 <div class="about-content">
-"Paintings by Tharushi" is the official website for publishing art works of Tharushi Dharmasiri. She is a Software Engineering undergraduate at General Sir John Kotelawala Defense University, Ratmalana, Sri lanka. <br>There are no tricks; these are paintings, painted with a paintbrush. A very detailed drawing is the starting point, followed by many carefully painted layers.  
+"Paintings by Tharushi" is the official website for publishing art works of Tharushi Dharmasiri. She is a Software Engineering undergraduate at General Sir John Kotelawala Defense University, Ratmalana, Sri lanka. <br>There are no tricks; these are paintings, painted with a paintbrush. A very detailed drawing is the starting point, followed by many carefully painted layers.
+  
 </div>
 <button type="button" class="btn btn-primary">Read more>>
 </button>
@@ -467,72 +468,44 @@
   </div>
 </section>
 
-
-
 <!-------SignUp--------->
 <section id="signup">
-  <form action="action_page.php" style="border:1px solid #ccc color: #999 !important padding: 15px">
+  
   <div class="container">
-    <h1>Sign Up</h1>
-    <p style="padding: 15px">Please fill in this form to create an account. Join with our team. Be an experienced artist.</p>
-    <hr>
-
+    <div class="login-box">
     <div class="row">
-      <div class="sign">
-        <div class="row" style="padding-left: 30px;">
-          <div class="col-50" style="width: 50%; margin-top: 10px; float: left;">
-            <label for="email" ><b>Email</b></label>
+      <div class="col-md-6">
+        <h2>Login Here</h2>
+        <form action="validation.php" method="post">
+          <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="user" class="form-control" required>
           </div>
-          <div class= "col-50" style="width:50%; margin-top: 10px; float: left; padding-left: 39px;">
-            <input type="text" placeholder=" Enter Email" name="email" required>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="user" class="form-control" required>
           </div>
-        </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h2>Register Here</h2>
+        <form action="registration.php" method="post">
+          <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="user" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="user" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
       </div>
     </div>
-
-    
-    <div class="row">
-      <div class="sign">
-        <div class="row" style="padding-left: 30px;">
-          <div class="col-50" style="width: 50%; margin-top: 10px; float: left;">
-            <label for="psw"><b>Password</b></label>
-          </div>
-          <div class= "col-50" style="width: 50%; margin-top: 10px; float: left; padding-left: 29px;">
-            <input type="password" placeholder=" Enter Password" name="psw" required>
-          </div>
-        </div>
-      </div>
     </div>
-
-    <div class="row">
-      <div class="sign">
-        <div class="row" style="padding-left: 30px;">
-          <div class="col-50" style="width: 50%; margin-top: 10px; float: left;">
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-          </div>
-          <div class= "col-50" style="width:50%; margin-top: 10px; float:left; padding-left: 10px;">
-            <input type="password" placeholder=" Repeat Password" name="psw-repeat" required>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-
-    <p>By creating an account you agree to our <a href="#" style="color:red">Terms & Privacy</a>.</p>
-
-  <!--   <div class="price-button">
-              <a class="buy-btn" href="#">Sign up</a>
-            </div> -->
-
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
-    </div>
-</div>
-</form>
+  </div>
+  
 </section>
 <!--------Get in touch---------->
 <section id="contact">
